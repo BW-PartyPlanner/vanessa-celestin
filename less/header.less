@@ -1,0 +1,47 @@
+header{
+    background: @header-bg;
+    color: @font-color;
+    padding: 30px;
+    min-height: 70px;
+    border-bottom: @header-bottom 3px solid;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color:@font-color;
+        font-size: 16px;
+        :hover{
+            font-weight: bold;
+            background-color: @steal-teal;
+        }
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        float: left;
+        display: flex;
+        padding: 0 20px 0 20px;
+    }
+    nav{
+        float: right;
+        margin-top: 10px;
+
+    }
+    .top-content{
+        float: left;
+        h1{
+            margin: 0;
+            font-size: 30px;
+        }
+    }
+    .highlight, .current a{
+        color: @tiffany-blue;
+        font-weight: bold;
+    }
+    #about-header{
+        padding: 10px;
+    }
+
+}
+
