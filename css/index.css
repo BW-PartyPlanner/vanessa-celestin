@@ -212,15 +212,9 @@ header .current a {
   color: #07b5b5;
   font-weight: bold;
 }
-header #about-header {
-  padding: 10px;
-}
 .homepage-container {
   min-height: 400px;
   background: url('../Images/fwends.jpg') no-repeat 0 -200px;
-}
-.homeVideo {
-  display: none;
 }
 .learn-more {
   padding: 15px;

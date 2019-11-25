@@ -47,141 +47,101 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
     background-color: #deeef4;
-    
 }
-
-h1,h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-h3{
-    color: #508991;
-}
-h2{
-    color: #172a3a;
-    font-size: 40px;
-}
-
-p {
-    line-height: 1.4;
-}
-
-
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 80%;
+    margin: auto;
+   
 }
-.nav-head{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    width: 900px;
-    background-color: #004346;
-    
-}
-header nav a{
-    font-size: 20px;
-    color: #172a3a;
+header {
+    background: #172a3a;
+    color: #ffffff;
+    padding: 30px;
+    min-height: 70px;
+    border-bottom: #07b5b5 3px solid;
+  }
+  header a {
     text-decoration: none;
-    margin-right: 65px;
-    justify-content: end;
-    color: #deeef4;
-    align-content: flex-end;
-}
-header nav a:hover{
-    background-color: #07b5b5;
-}
-header .logo{
-    margin-bottom: 50px;
-    margin: 10px 50px;
-    height: 40px;
-    float: right;
-    color: #deeef4;
-    font-size: 35px;
     text-transform: uppercase;
-}
-.about{
-    padding: 20px;
-    font-size: 20px;
-    border-bottom: 1px dashed black;
-    margin-bottom: 20px;
-}
-.top-content {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  header a :hover {
+    font-weight: bold;
+    background-color: #508991;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  header li {
+    float: left;
     display: flex;
-    margin: 25px 0px;
-    flex-direction: row;
-    flex-flow: row wrap;
+    padding: 0 20px 0 20px;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  header .top-content {
+    float: left;
+  }
+  header .top-content h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+  header .highlight,
+  header .current a {
+    color: #07b5b5;
+    font-weight: bold;
+  }
+.top-about-content{
+    display: flex;
+    text-align: center;
     justify-content: space-evenly;
 }
-.top-content .text-container {
-    width: 18%;
-    padding-bottom: 20px; 
-    justify-content: center; 
-   
+.top-about-content .text-container img:last-child{
+    width: 80%;
 }
 .middle-content{
     display: flex;
-    margin: 25px 0px;
-    flex-direction: row;
-    flex-flow: row wrap;
+    text-align: center;
     justify-content: space-evenly;
-    border-bottom: 1px dashed black;
+}
+.last-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.top-about-content, .middle-content, .last-content .text-container {
     
+    margin-top: 10%;
+    padding: 0px 20px 0px 20px;
+    justify-content: left; 
+    text-align: left;
+   
 }
-.middle-content .text-container {
-    width: 18%;
-    padding-bottom: 20px; 
-    justify-content: center; 
+.top-about-content, .middle-content, .last-content .text-container h3{
+    color: #004346;
 }
-button{
-    background: white;
-    vertical-align: top;
-    margin-top: 6px;
-    
-    font-size: 20px;
-    border: 2px solid black;
-    border-radius: 8px;
-}
-.bottom-content{
-    padding: 20px;
-    font-size: 20px;
-    margin-bottom: 20px;
+.last-content{
+    border-bottom: 2px dashed #07b5b5; 
 }
 footer {
-    width: 100%;
-    background: black;
-}
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #508991;
+    text-align: center;
+  }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-@media (max-width: 500px){
-    .text-content{
-        /* display: flex; */
-        margin: 25px 0px;
-        flex-direction: row;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-    }
-}
+
     
